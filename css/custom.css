@@ -4,3 +4,19 @@ font-family: 'Acme', sans-serif;
 font-family: 'Lora', serif;
 font-family: 'Satisfy', cursive;
 */
+
+html, body {height: 100%;}
+.bloco {min-height: 100%;}
+
+.home {background-image: url('../image/bg.jpg'); background-repeat: no-repeat; background-size: cover;}
+
+/* MEDIA */
+
+@media only screen and (max-width: 480px) {
+}
+    
+@media only screen and (min-width: 601px) {
+}
+    
+@media only screen and (min-width: 993px) {
+}
