@@ -8,20 +8,33 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">      
     <!-- Compiled and minified CSS -->
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/custom.css">
 
     <title>Pitanguinha</title>
 </head>
 <body>
 
-    <div class="card-panel red">olá mundo</div>
+    <nav class="white" role="navigation">
+        <div class="container nav-wrapper">
+            <a href="#" class="brand-logo">Logo</a>
+            <ul class="hide-on-med-and-down right">
+                <li><a href="#">Link 01</a></li>
+                <li><a href="#">Link 02</a></li>
+                <li><a href="#">Link 03</a></li>
+                <li><a href="#">Link 04</a></li>
 
-    <div class="carousel">
-        <a class="carousel-item" href="#one!"><img src="image/img1.jpg"></a>
-        <a class="carousel-item" href="#two!"><img src="image/img2.jpg"></a>
-        <a class="carousel-item" href="#three!"><img src="image/img3.jpg"></a>
-        <a class="carousel-item" href="#four!"><img src="image/img4.jpg"></a>
-        <a class="carousel-item" href="#five!"><img src="image/img5.jpg"></a>
-      </div>
+            </ul>
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="#">Link 01</a></li>
+                <li><a href="#">Link 02</a></li>
+                <li><a href="#">Link 03</a></li>
+                <li><a href="#">Link 04</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
 
 
     <!-- Compiled and minified JavaScript -->
