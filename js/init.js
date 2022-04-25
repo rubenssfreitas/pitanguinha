@@ -5,4 +5,5 @@
         $('.parallax').parallax();
         
     });
-})(jQuery);
+});
+
