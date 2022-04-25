@@ -1,14 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Acme&family=Lora:ital@1&family=Satisfy&display=swap');
-/*
-font-family: 'Acme', sans-serif;
-font-family: 'Lora', serif;
-font-family: 'Satisfy', cursive;
-*/
+nav ul a,
+nav .brand-logo{ color: #444;}
 
-html, body {height: 100%;}
-.bloco {min-height: 100%;}
-
-.home {background-image: url('../image/bg.jpg'); background-repeat: no-repeat; background-size: cover;}
+.sidenav-trigger {color: #26a69a;}
 
 /* MEDIA */
 

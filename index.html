@@ -13,18 +13,54 @@
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <!-- MATERIALIZE CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" media="screen,projection">
   <!-- CUSTOM CSS -->
-  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/custom.css" type="text/css" media="screen,projection">
 
 </head>
-<p>x</p>
+
 <body>
 
+  
+<nav class="white" role="navigation">
+    <div class="container nav-wrapper">
+      <a href="#" class="brand-logo">Logomarca</a>
+      <ul class="hide-on-med-and-down right">
+        <li><a href="#">Link1</a></li>
+        <li><a href="#">Link2</a></li>
+        <li><a href="#">Link3</a></li>
+        <li><a href="#">Link4</a></li>
+      </ul>
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#">Link1</a></li>
+        <li><a href="#">Link2</a></li>
+        <li><a href="#">Link3</a></li>
+        <li><a href="#">Link4</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+  </nav>
 
-
-
-
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">Template Parallax</h1>
+        <div class="row center">
+          <h5 class="header col s12 ligth">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit magnam illum, libero suscipit molestiae reprehenderit inventore </h5>
+        </div>
+        <div class="row center">
+          <a href="#" class="btn-large waves-effect waves-ligth teal lighten-1">Inscreva-se</a>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax">
+      <img src="image/img1.jpg" alt="">
+    </div>
+  </div>
 
   <!-- JQUERY -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
